@@ -1,0 +1,44 @@
+{
+    "napcat":  {
+                   "http_url":  "http://localhost:3000",
+                   "access_token":  "",
+                   "uin":  "",
+                   "auto_start":  true,
+                   "webui_host":  "::",
+                   "webui_port":  6099,
+                   "webui_token":  ""
+               },
+    "websocket":  {
+                      "host":  "localhost",
+                      "port":  18082,
+                      "token":  ""
+                  },
+    "monitor":  {
+                    "all_private":  false,
+                    "all_group":  false,
+                    "private_uins":  [
+
+                                     ],
+                    "group_ids":  [
+
+                                  ]
+                },
+    "download":  {
+                     "batch_interval":  1,
+                     "max_concurrent_msgs":  3,
+                     "timeout":  45,
+                     "retry_network_errors":  1,
+                     "enable_md5_dedup":  true,
+                     "md5_cache_file":  "downloaded_md5.json",
+                     "download_images":  true,
+                     "download_videos":  true,
+                     "parse_forward":  true,
+                     "parse_reply":  true
+                 },
+    "app":  {
+                "auto_start_monitor_on_gui_launch":  false,
+                "minimize_to_tray":  true,
+                "video_preview_autoplay":  false,
+                "log_level":  "INFO"
+            }
+}
