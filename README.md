@@ -198,22 +198,6 @@ config/settings.example.json
 - WebSocket token
 - 监控对象账号或群号
  
-## 不建议上传的内容
- 
-以下内容不应该提交到 GitHub 源码仓库：
- 
-```text
-ALL_Fold/
-downloaded_md5.json
-config/settings.json
-python/
-NapCat.Shell.Windows.Node/
-.monitor.lock
-__pycache__/
-*.log
-```
- 
-完整可运行包建议放在 GitHub Release 中，不建议直接提交到源码仓库。
  
 ## 常见问题
  
